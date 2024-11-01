@@ -36,6 +36,17 @@ body{
     transition:  .2s;
 }
 
+h2.titulo{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;    
+}
+
+h2.titulo spam{
+    color: rgb(198, 184, 38);
+}
+
+
 /* ESTILO DO CABEÇALHO */
 
 header{
@@ -117,4 +128,38 @@ section.topo-do-site .flex{
     100%{
         top: 30px;
     }
+}
+
+/* ESTILO DOS MEUS SERVIÇOS */
+
+section.servicos{
+    padding: 40px 4%;
+}
+
+section.servicos .flex{
+    gap: 60px;
+}
+
+.servicos .servicos-box{
+    color: #fff;
+    padding: 40px;
+    margin-top: 45px;
+    border-radius: 20px;
+    transition: 1.2s;
+    
+}
+
+.servicos .servicos-box:hover{
+    transform:scale(1.05);
+    box-shadow: 0 0 20px rgba(198, 185, 38, 0.52);
+}
+
+.servicos .servicos-box i{
+    font-size: 70px;
+    color:rgb(198, 184, 38);
+}
+
+.servicos .servicos-box h3{
+    font-size: 25px;
+    margin:15px 0;
 }
