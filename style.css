@@ -66,6 +66,10 @@ header > .interface{
     justify-content:space-between;
 }
 
+header{
+    padding: 40px 4%;
+}
+
 header a{
     color: #5c5c5c;
     text-decoration: none;
@@ -89,6 +93,12 @@ header nav ul li{
 }
 
 
+.desktop ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
 
 /* ESTILO DO TOPO DO SITE */
 

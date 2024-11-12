@@ -12,9 +12,16 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     ]<!--FIM BOOTSRAP ICONS-->
     <link rel="stylesheet" href="style.css">
+    
     <title>Personal Trainer Manoel Justino</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body>
+    
 
     <header>
         <div class="interface">
@@ -26,13 +33,14 @@
 
             <nav class="desktop">
                 <ul>
-                    <li><a href="a">Início</a></li>
-                    <li><a href="a">Serviços</a></li>
-                    <li><a href="a">Planos</a></li>
-                    <li><a href="a">Sobre</a></li>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#planos">Planos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
                 </ul>
             </nav>
-
+            
+           
             <div class="btn-contato">
                 <a href="a">
                     <button>Contato</button>
@@ -51,7 +59,7 @@
                         <p>Qualidade de vida e exercício físico andam lado a lado. Com uma junção de treinos assertivos, estimulos corretos e periodização intuitiva e baseada na ciência, estou pronto para transformar a sua vida através do exercício físico.</p>
 
                         <div class="btn-contato">
-                            <a href="#">
+                            <a href="">
                                 <button>Entre em contato</button>
                             </a>
                             
@@ -148,11 +156,11 @@
         <section class="formulario">
             <div class="interface">
                 <h2 class="titulo">FALA <spam>COMIGO.</spam></h2>
-                <form action="">
-                    <input type="text" name="" id="" placeholder="Seu nome completo:">
-                    <input type="text" name="" id="" placeholder="Seu e-mail:">
-                    <input type="text" name="" id="" placeholder="Seu celular:">
-                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea><div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                <form id="contactForm">
+                    <input type="text" name="" id="nome" placeholder="Seu nome completo:">
+                    <input type="text" name="" id="email" placeholder="Seu e-mail:">
+                    <input type="text" name="" id="celular" placeholder="Seu celular:">
+                    <textarea name="" id="mensagem" placeholder="Sua mensagem" required></textarea><div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
 
 
                 </form>
@@ -185,6 +193,6 @@
         </div><!--interface-->
     </footer>
         
-    
+<script src="script.js"></script> 
 </body>
 </html>
